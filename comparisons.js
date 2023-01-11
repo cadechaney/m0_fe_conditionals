@@ -89,15 +89,15 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
-
+console.log(lovesToPlay && age);
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: It evaluated to 1 because that is the variable. It is unable to identify if its a puupy because it has no information on how old a puupy is.
