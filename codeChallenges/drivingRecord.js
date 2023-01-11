@@ -1,7 +1,7 @@
 
 
-var goodDrivingRecord = true
-var age = 24
+var goodDrivingRecord = false
+var age = 21
 
 
 if (goodDrivingRecord === true && age >=25) {
