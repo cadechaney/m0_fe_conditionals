@@ -53,21 +53,21 @@ console.log("Is numberStudents less than or equal to 21?", 21 >= numberStudents)
 
 console.log(4 < 9);
 // YOU DO: Explain.
-
+// It is showing a true or false state for "four is less than nine". It will show on screen (true) as the answer.
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-
+// It is showing a true or false conditional statement for "4 is less than books" (books=4). It will show as false.
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-
+// It is showing two variables 1. "friends" with the value of 6 2. "siblings" with the value of 2 and is using the comparison operator "greater than" to compare the two variables. When noded it will show as true due to the variable of friends being greater than siblings.
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-
+// It is showing tow variable 1. "attendees" with the value of 9 2. "meals" with the value of 8. It is checking with the comparison operator of "stictly not equal" that the variables are the same. If they were equal it would default to true, but due to them being unequal it will show as false.
 
 // #-------------------
 // PART 3: Logical Operators
