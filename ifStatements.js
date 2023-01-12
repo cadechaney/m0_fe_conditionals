@@ -77,7 +77,7 @@ var cupsOfFlour = 3;
 var hasSauce = false;
 
 
-if (cupsOfFlour < 5 && hasSauce === true) {
+if (cupsOfFlour > 2 && hasSauce === true) {
   console.log("I can make pizza");
 }  else {
   console.log("I cannot make pizza");
